@@ -1,0 +1,30 @@
+﻿<div data-options="dxView : { name: 'Setting', title: 'Setting' } " >
+    <div id="bg" data-options="dxContent : { targetPlaceholder: 'content' } ">
+        <div id="Content" data-bind="dxScrollView: {disabled: false}">
+        <div id="wrapper" >
+                <div class="user-icon"></div>
+    <div class="pass-icon"></div> 
+          <br /><br />
+         <form name="Setting-form" class="Setting-form" action="db.js" method="post" style="text-align:center; width: 235px;" >
+        <div class="content">
+            <br /> 
+	  <div id="Ipaddress" data-bind="dxTextBox: Ipaddress" class="input ServerAddress"  onfocus="this.value=''" style="height:55px;"></div>
+        <br /> 
+       <div id="ServerPort"  data-bind="dxTextBox: ServerPort" class="input ServerPort" onfocus="this.value=''" style="height:55px;" ></div>
+    </div>
+<div class="footer">
+<div data-bind="dxButton: { text: 'Save', clickAction: login }" class="button"></div> 
+    </div>
+</form> 
+  </div>  
+            </div>
+<div id="logonFailedoverlay" data-bind="dxOverlay: { }">
+<div style="color:red" data-bind="text: 'IpAddress Address  Configure Failed Plese Try Again...'"></div>
+<div id="hideButton" data-bind="dxButton: { text: 'Try Again', clickAction: hideOverlay }"></div>
+</div> 
+          <div id="Footer" style="background-color:#07823F" >
+           <span>IP Address Configuration</span>
+        </div>       
+</div>
+     
+</div>

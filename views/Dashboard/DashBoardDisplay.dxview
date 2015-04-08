@@ -1,0 +1,15 @@
+<div data-options="dxView : { name: 'DashBoardDisplay', title: ''  } " style="background-color:#E1E1E1">
+    <!--<div data-bind="dxToolbar: { dataSource: toolbarItems, clickAction: menuItemClicked}"></div>-->
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " data-bind="dxScrollView: {} ">
+         <div data-bind="dxDropDownMenu: { dataSource: dropDownMenuData, itemClickAction: menuItemClicked }"></div>
+   <iframe 	id="blockrandom"
+	name="iframe"
+	src=""
+	width="100%"
+	height="900"
+	scrolling="auto"
+	frameborder="1"
+	class="wrapper">
+	</iframe>
+    </div>
+    </div>

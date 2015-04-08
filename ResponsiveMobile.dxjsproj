@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>05a572fc-ff29-4afe-b315-4b094b31fcae</ProjectGuid>
+    <AutoAssignPort>True</AutoAssignPort>
+    <RunInSimulator>True</RunInSimulator>
+    <ApplicationPage>index.html</ApplicationPage>
+    <RootNamespace>ResponsiveMobile</RootNamespace>
+    <Name>ResponsiveMobile</Name>
+    <ApkDexFilePackageName>com.devextreme.ResponsiveMobile</ApkDexFilePackageName>
+    <KeyApkPath>certificates\android_certificate.p12</KeyApkPath>
+    <VersionCode>1</VersionCode>
+    <TemplateFileApk />
+    <UseCustomTemplateNameApk>False</UseCustomTemplateNameApk>
+    <KeyIpaPath />
+    <ProvisionProfile />
+    <IpaPrivateKeyFile>certificates\ios_private_key.txt</IpaPrivateKeyFile>
+    <TemplateFileIpa />
+    <UseCustomTemplateNameIpa>False</UseCustomTemplateNameIpa>
+    <IpaDevicesFamily>Universal</IpaDevicesFamily>
+    <BundleIdentifier>ResponsiveMobile</BundleIdentifier>
+    <IpaSupportedLanguages />
+    <KeyApkAlias>tmpl</KeyApkAlias>
+    <DebugSitePortNumber>50000</DebugSitePortNumber>
+    <UseWebDev>False</UseWebDev>
+    <DefaultDevice>iPhone6</DefaultDevice>
+    <DeviceOrientation>Portrait</DeviceOrientation>
+    <DisplayUnhandledExceptions>True</DisplayUnhandledExceptions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="css\setting.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\style.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\tiles.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Background.fw.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\bg.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\ContactUs-pict.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\con_address.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\con_fax.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\con_mobile.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\con_tel.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\emailButton.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\gradient.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\metro_green.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Mobile.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\pass-icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Setup.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Tablet.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\user-icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="index.js" />
+    <Content Include="cordova.js" />
+    <Content Include="index.html" />
+    <Content Include="index.css" />
+    <Content Include="Resources\Background.fw.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\about.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\blank.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\DashBoardCategory\DashBoard.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\DashBoardCategory\DashBoardCategory.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\DashBoardCategory\DashBoardCategory.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Dashboard\DashBoardDisplay.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Dashboard\DashBoardDisplay.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\login.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\login.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Login\login.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Setting\Setting.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Setting\Setting.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\TilesView\Tiles.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\TilesView\TilesView.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\TilesView\TilesView.js">
+      <SubType>Content</SubType>
+    </Content>
+    <None Include="certificates\android_certificate.p12" />
+    <None Include="certificates\ios_certificate_request.txt" />
+    <None Include="certificates\ios_private_key.txt" />
+    <None Include="config.xml" />
+    <Content Include="css\dx.spa.css" />
+    <Content Include="css\dx.common.css" />
+    <Content Include="css\dx.android.holo-dark.css" />
+    <Content Include="css\dx.android.holo-light.css" />
+    <Content Include="css\dx.android5.light.css" />
+    <Content Include="css\dx.light.css" />
+    <Content Include="css\dx.dark.css" />
+    <Content Include="css\dx.ios.default.css" />
+    <Content Include="css\dx.ios7.default.css" />
+    <Content Include="css\dx.win8.black.css" />
+    <Content Include="css\dx.win8.white.css" />
+    <Content Include="css\dx.tizen.black.css" />
+    <Content Include="css\dx.tizen.white.css" />
+    <Content Include="data\db.js" />
+    <Content Include="layouts\Navbar\NavbarLayout.css" />
+    <Content Include="layouts\Navbar\NavbarLayout.html" />
+    <Content Include="layouts\Navbar\NavbarLayout.js" />
+    <Content Include="layouts\Pivot\PivotLayout.css" />
+    <Content Include="layouts\Pivot\PivotLayout.html" />
+    <Content Include="layouts\Pivot\PivotLayout.js" />
+    <Content Include="layouts\SlideOut\SlideOutLayout.js" />
+    <Content Include="layouts\SlideOut\SlideOutLayout.css" />
+    <Content Include="layouts\SlideOut\SlideOutLayout.html" />
+    <Content Include="layouts\Empty\EmptyLayout.js" />
+    <Content Include="layouts\Empty\EmptyLayout.css" />
+    <Content Include="layouts\Empty\EmptyLayout.html" />
+    <Content Include="layouts\Simple\SimpleLayout.js" />
+    <Content Include="layouts\Simple\SimpleLayout.css" />
+    <Content Include="layouts\Simple\SimpleLayout.html" />
+    <Content Include="layouts\Popup\PopupLayout.js" />
+    <Content Include="layouts\Popup\PopupLayout.css" />
+    <Content Include="layouts\Popup\PopupLayout.html" />
+    <Content Include="layouts\Desktop\DesktopLayout.js" />
+    <Content Include="layouts\Desktop\DesktopLayout.css" />
+    <Content Include="layouts\Desktop\DesktopLayout.html" />
+    <Content Include="layouts\Split\SplitLayout.js" />
+    <Content Include="layouts\Split\SplitLayout.css" />
+    <Content Include="layouts\Split\SplitLayout.html" />
+    <Content Include="js\localization\dx.all.de.js" />
+    <Content Include="js\localization\dx.all.ja.js" />
+    <Content Include="js\localization\dx.all.ru.js" />
+    <Content Include="js\dx.all.js" />
+    <Content Include="js\dx.all.debug.js" />
+    <Content Include="js\globalize.min.js" />
+    <Content Include="js\jquery-1.11.1.min.js" />
+    <Content Include="js\jquery-2.1.1.min.js" />
+    <Content Include="js\knockout-3.2.0.js" />
+    <Content Include="views\home.dxview" />
+    <Content Include="views\home.css" />
+    <Content Include="views\home.js" />
+    <Content Include="views\about.html" />
+    <Content Include="views\blank.html" />
+    <Content Include="app.config.js" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_36_36.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_48_48.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_72_72.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_96_96.png" />
+    <None Include="Resources\PackageIcons.iOS.icon%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-60%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-60.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-72%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-72.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-76%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-76.png" />
+    <None Include="Resources\PackageIcons.iOS.icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="certificates\" />
+    <Folder Include="css\" />
+    <Folder Include="data\" />
+    <Folder Include="js\" />
+    <Folder Include="js\localization\" />
+    <Folder Include="layouts\" />
+    <Folder Include="layouts\Desktop\" />
+    <Folder Include="layouts\Empty\" />
+    <Folder Include="layouts\Navbar\" />
+    <Folder Include="layouts\Pivot\" />
+    <Folder Include="layouts\Popup\" />
+    <Folder Include="layouts\Simple\" />
+    <Folder Include="layouts\SlideOut\" />
+    <Folder Include="layouts\Split\" />
+    <Folder Include="Images" />
+    <Folder Include="Resources\" />
+    <Folder Include="views\" />
+    <Folder Include="views\Dashboard" />
+    <Folder Include="views\DashBoardCategory" />
+    <Folder Include="views\Login" />
+    <Folder Include="views\Setting" />
+    <Folder Include="views\TilesView" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <Target Name="Build">
+    <!--
+    <Message Text="'$(MSBuildToolsPath)'"></Message>
+    -->
+    <Message Text="Build JSProject '$(MSBuildProjectFile)':" Importance="high">
+    </Message>
+    <Message Text="Copying references to output dir." Importance="high" />
+    <MSBuild Targets="Build" Projects="@(ProjectReference)" Properties="OutputPath=$([System.IO.Path]::GetFullPath('$(OutputPath)'))">
+    </MSBuild>
+    <Message Text="Copying files to output dir." Importance="high" />
+    <Copy SourceFiles="@(Content)" DestinationFiles="@(Content->'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+    <Message Text="Finished Build JSProject '$(MSBuildProjectFile)'." Importance="high">
+    </Message>
+  </Target>
+  <Target Name="CreateManifestResourceNames" Condition="'@(ResxWithNoCulture)@(ResxWithCulture)@(NonResxWithNoCulture)@(NonResxWithCulture)'!=''" />
+  <Target Name="Rebuild" DependsOnTargets="Clean;Build">
+  </Target>
+  <Target Name="Clean">
+    <!--
+    <Message Text="Cleaning Output files..." Importance="high" />
+    <Delete Files="@([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+    -->
+    <Message Text="Cleaning Output dir ($([System.IO.Path]::GetFullPath('$(OutputPath)')))..." Importance="high" />
+    <RemoveDir Directories="$([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+  </Target>
+</Project>

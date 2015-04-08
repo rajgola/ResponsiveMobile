@@ -1,0 +1,66 @@
+﻿body
+{
+
+}
+
+.ig
+{
+    /*background-image:url(../Images/bg.png);*/
+    background-color:white;
+}
+.contact-street
+{
+    font:italic;
+    font-style:italic;
+    font-size:12px;
+    font-stretch:inherit;
+   color:black;
+    
+}
+.contact-name
+{
+    font-style:italic;
+    font-size:medium;
+    color:orange;
+    
+    
+}
+.jicons-icons
+{
+     font-style:italic;
+    font-size:medium;
+    color:black;
+}
+.h3
+{
+    font-style:italic;
+    font-size:medium;
+    color:black;
+    
+}
+.contact-street
+{
+font-style:italic;
+    font-size:medium;
+   color:black;
+}
+.contact-telephone
+{
+    font-style:italic;
+    font-size:medium;
+    color:black;
+
+}
+.contact-fax
+{
+     font-style:italic;
+    font-size:medium;
+    color:black;
+
+}
+.contact-mobile
+{
+font-style:italic;
+    font-size:medium;
+    color:black;
+}

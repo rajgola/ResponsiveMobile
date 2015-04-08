@@ -1,0 +1,24 @@
+<div data-options="dxView : { name: 'DashBoardCategory', title: '' } ">
+    <div id="bg" data-options="dxContent : { targetPlaceholder: 'content' } ">
+       <!-- <div id="Content" data-bind="dxScrollView: {disabled: false}">               
+            </div>-->
+          <br /> <br />
+         <div id="Div2"data-bind="dxScrollView: {direction: 'vertical'}">
+       <div id="myTileView" data-bind="dxTileView: {dataSource: dataSource, ItemHeight: 75, ItemWidth: 80,itemMargin:50, activeStateEnabled: true,visible: false,itemClickAction: show }"  style="color:white">
+            <div id="tiles"  data-options="dxTemplate : { name: 'item' } ">
+                <img style="margin:5px;" data-bind="attr:{src:' data:image/png;base64,' + Icon}" />
+                <br />
+               <i class="contact-Category"  data-bind="text: $data.Name"  ></i> 
+            </div>
+        </div>                        
+            </div>
+   <div id="Footer" style="background-color: #383838" data-bind="dxScrollView: {disabled: true}">
+            <div id="navBarContainer" data-bind="dxNavBar: {dataSource: navItems, itemClickAction: click,rtlEnabled:false}">
+                <div id="div2" data-options="dxTemplate : { name: 'item' } ">
+                 <img style="margin:5px;" data-bind="attr:{src:' data:image/png;base64,' + Icon16 }"/ ><br />
+             <i class="contact-Category" data-bind="text: $data.MobileDisplayName"></i>
+            </div>
+            </div>
+    </div>
+    </div>
+</div>

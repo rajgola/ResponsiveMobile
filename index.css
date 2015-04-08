@@ -1,0 +1,15 @@
+﻿html, 
+body,
+.dx-viewport {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.dx-slideout-menu .dx-scrollable-content {
+    /*background-color: Aqua;*/
+   /*background-image:url(Images/bg.png);*/ 
+    background: #E1E1E1;
+}

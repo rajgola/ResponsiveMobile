@@ -1,0 +1,18 @@
+<div data-options="dxView : { name: 'TilesView', title: '' } ">
+<!--<div data-bind="dxToolbar: { dataSource: toolbarItems, clickAction: menuItemClicked}"></div>-->
+     <div  id="bg" data-options="dxContent : { targetPlaceholder: 'content' } " >
+     <div data-bind="dxDropDownMenu: { dataSource: dropDownMenuData, itemClickAction: menuItemClicked,location:'before' }"></div>
+       <div id="Content" data-bind="dxScrollView: {disabled: false}">
+       <div id="Send" data-bind="dxTileView: {dataSource: dataSource, ItemHeight: 75, ItemWidth: 80,itemMargin:8.5,itemClickAction: show , activeStateEnabled: true,visible: true}" style="color:darkgreen">
+            <div id="tiles"  data-options="dxTemplate : { name: 'item' } ">
+                <img style="margin:5px;" data-bind="attr:{src:' data:image/png;base64,' + Icon}" />
+                <spam id="name" data-bind="text: $data.Name" ></spam> 
+            </div>
+        </div>
+       <!--<div id="Push"></div>-->                        
+            </div>
+    <div id="Footer" data-bind="dxScrollView:{disabled:true">
+       <h>DashBoard</h> 
+        </div>
+         </div>
+    </div>

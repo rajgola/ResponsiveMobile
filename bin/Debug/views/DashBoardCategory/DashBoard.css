@@ -1,0 +1,72 @@
+﻿.dx-tileview .dx-tile {
+  border-radius: .5em;
+  text-align:center;
+  /*background-color:#228B22;*/
+  color: blue;
+  font:oblique;
+}
+#myTileView
+{
+    background:#E4EFE9;
+    padding-left:initial;
+     margin-right:20px;
+     margin-left:20px;
+    /*border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;*/
+    border-bottom-style:groove;
+    border-color:red;
+    padding-bottom:-5px;
+
+}
+  #tiles 
+  {
+   border-radius: .2em;
+  text-align: center;
+  color: white;
+  font-size:xx-small;
+  padding: -10px;
+  background:transparent;
+
+}
+#Content {
+    width:90px;
+     margin-top:6px;
+}
+
+#Footer {
+    background-color:blue;
+    bottom:0px;
+    height:60px;
+    position:absolute;
+    text-align:center;
+    text-space-collapse:collapse;
+    text-shadow:none;
+    color:white;
+}
+#Push {
+    background-color: white;
+    bottom:0px;
+    height:60px;
+    position:relative;
+    width:100%;
+}
+
+#navBarContainer
+{
+ background-color:transparent;
+ color:white;
+ font-size:small;
+ font-style:normal;   
+}
+.contact-Category
+{
+    font-size:x-small;
+    color:white;
+}
+#Div2
+{
+    border-style:solid;
+    border-color:lightgreen;
+}
